@@ -1,0 +1,224 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 266, 330
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rut gon ham logic"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDCE_THEM,144,16,97,14,ES_AUTOHSCROLL | ES_WANTRETURN
+    CONTROL         "Them bien",IDCR_THEM_1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,154,56,49,10
+    CONTROL         "Them dinh ",IDCR_THEM_2,"Button",BS_AUTORADIOBUTTON,154,
+                    72,51,10
+    CONTROL         "Them dinh khong xac dinh",IDCR_THEM_3,"Button",
+                    BS_AUTORADIOBUTTON | BS_MULTILINE,154,87,97,12
+    PUSHBUTTON      "Them...",IDC_THEM,144,37,97,14
+    PUSHBUTTON      "Xoa...",IDC_XOA,144,103,97,14
+    COMBOBOX        IDCC_DANGBT,7,17,93,56,CBS_DROPDOWNLIST | WS_TABSTOP
+    LISTBOX         IDCL_TENBIEN,7,43,92,76,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Len",IDC_LEN,101,65,31,14
+    PUSHBUTTON      "Xuong",IDC_XUONG,101,81,31,14
+    CONTROL         "Lay ket qua: Tong so dau vao o tang 1 nho nhat",
+                    IDCCHK_KQTOTNHAT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    123,169,10
+    PUSHBUTTON      "Rut gon bieu thuc!",IDC_RUTGON,7,135,251,15
+    LISTBOX         IDCL_DQUANTRONG,7,161,93,71,LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      ">",IDC_ST1,120,162,27,14
+    PUSHBUTTON      ">>",IDC_STTATCA,120,181,27,14
+    PUSHBUTTON      "<<",IDC_SPTATCA,120,199,27,14
+    PUSHBUTTON      "<",IDC_SP1,120,215,27,14
+    LISTBOX         IDCL_DKQUANTRONG,166,161,92,71,LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDCE_KETQUA,7,242,251,66,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Xoa ket qua",IDC_XOAKETQUA,44,309,57,14
+    PUSHBUTTON      "Copy ket qua",IDC_COPYKETQUA,103,309,57,14
+    PUSHBUTTON      "Rut gon ham moi",IDC_RGHAMMOI,162,309,57,14
+    PUSHBUTTON      "Gioi thieu",IDC_GIOITHIEU,7,309,34,14
+    DEFPUSHBUTTON   "Thoat",IDCANCEL,223,309,35,14
+    LTEXT           "Ten bien:",IDC_STATIC,7,33,31,8
+    LTEXT           "Cac dinh ...",IDC_TDDQUANTRONG,7,153,37,8
+    LTEXT           "Ket qua rut gon:",IDC_STATIC,10,233,52,8
+    LTEXT           "Cac dinh khong xac dinh:",IDC_STATIC,166,153,82,8
+    GROUPBOX        "Nhap ham logic:",IDC_STATIC,133,6,125,116
+    LTEXT           "Dang cua ham logic:",IDC_STATIC,7,6,66,8
+END
+
+IDD_GIOITHIEU DIALOG DISCARDABLE  0, 0, 186, 153
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Gioi thieu"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,67,111,50,14
+    LTEXT           "Viet boi:",IDC_STATIC,51,29,26,8
+    LTEXT           "Lop: Dieu Khien Tu Dong 1",IDC_STATIC,63,54,116,8
+    LTEXT           "Ngay: 27-8-2008",IDC_STATIC,52,95,116,8
+    LTEXT           "Rut gon ham logic (Chuong trinh chay thu)",IDC_STATIC,
+                    25,11,134,8
+    ICON            IDI_MAIN,IDC_STATIC,17,25,21,20
+    LTEXT           "Chu y: Ban co the nhap ten bien va cac dinh bang phim Space",
+                    IDC_STATIC,11,129,166,16
+    LTEXT           "Khoa Dien",IDC_STATIC,63,67,116,8
+    LTEXT           "Dai hoc Bach Khoa Ha Noi",IDC_STATIC,64,81,115,8
+    LTEXT           "Trac Quang Hoa",IDC_STATIC,62,41,54,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        VERTGUIDE, 100
+        VERTGUIDE, 133
+        VERTGUIDE, 144
+        VERTGUIDE, 154
+        VERTGUIDE, 166
+        VERTGUIDE, 241
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 323
+        HORZGUIDE, 17
+        HORZGUIDE, 161
+    END
+
+    IDD_GIOITHIEU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "icon1.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "THBT - Cam Binh - Cam Xuyen - Ha Tinh\0"
+            VALUE "FileDescription", "Rut gon bieu thuc logic\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Rut gon bieu thuc logic\0"
+            VALUE "LegalCopyright", "Copyright © Trac Quang Hoa 8-2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Rut gon bieu thuc logic.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Rut gon bieu thuc logic - Ban chay thu\0"
+            VALUE "ProductVersion", "1, 0, 0, 1- Ban chay thu\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

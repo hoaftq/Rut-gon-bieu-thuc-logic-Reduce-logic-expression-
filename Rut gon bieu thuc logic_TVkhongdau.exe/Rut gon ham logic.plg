@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rut gon bieu thuc logic - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/RgbtLg.res" /d "_DEBUG" /d "_AFXDLL" "C:\Program Files\Microsoft Visual Studio\MyProjects\Rut gon bieu thuc logic hoan chinh\Copy of Rut gon bieu thuc logic.exe\RgbtLg.rc"" 
+Creating temporary file "C:\DOCUME~1\QUANGH~1\LOCALS~1\Temp\RSP1F0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Rut gon ham logic.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Rut gon bieu thuc logic hoan chinh\Copy of Rut gon bieu thuc logic.exe\EditResult.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Rut gon bieu thuc logic hoan chinh\Copy of Rut gon bieu thuc logic.exe\InputLogic.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Rut gon bieu thuc logic hoan chinh\Copy of Rut gon bieu thuc logic.exe\ReduceQuineMcCluskey.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Rut gon bieu thuc logic hoan chinh\Copy of Rut gon bieu thuc logic.exe\RgbtLgApp.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Rut gon bieu thuc logic hoan chinh\Copy of Rut gon bieu thuc logic.exe\RgbtLgDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Rut gon bieu thuc logic hoan chinh\Copy of Rut gon bieu thuc logic.exe\Table.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\QUANGH~1\LOCALS~1\Temp\RSP1F0.tmp" 
+Creating temporary file "C:\DOCUME~1\QUANGH~1\LOCALS~1\Temp\RSP1F1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Rut gon ham logic.pdb" /debug /machine:I386 /out:"Debug/Rut gon ham logic.exe" /pdbtype:sept 
+".\Debug\EditResult.obj"
+".\Debug\InputLogic.obj"
+".\Debug\ReduceQuineMcCluskey.obj"
+".\Debug\RgbtLgApp.obj"
+".\Debug\RgbtLgDlg.obj"
+".\Debug\Table.obj"
+".\Debug\RgbtLg.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\QUANGH~1\LOCALS~1\Temp\RSP1F1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+EditResult.cpp
+InputLogic.cpp
+ReduceQuineMcCluskey.cpp
+RgbtLgApp.cpp
+RgbtLgDlg.cpp
+Table.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Rut gon ham logic.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
